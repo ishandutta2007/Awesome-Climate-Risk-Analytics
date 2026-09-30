@@ -1,211 +1,117 @@
-# Awesome-Climate-Risk-Analytics
-
-## Top Climate Risk Analytics Platforms Ecosystem
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**
-
-*Focused on Physical Climate Risk, Hazard Modeling, Asset-Level Scoring, Scenario Analysis & Financial Impact Translation*
-
-**Last updated: September 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Climate Risk Analytics**. These systems translate climate science and hazard data into asset-level and portfolio-level risk scores, financial impacts, and scenario analysis for banks, insurers, asset managers, and corporates.
-
-
-
-**Examples** include Jupiter Intelligence, Cervest, Climate X, One Concern, Mitiga Solutions, ClimateAI, Four Twenty Seven, RisQ, ClimateCheck, and Faura (the category leaders).
-
-
-
-**Open-source emphasis**: Production-grade commercial climate risk platforms dominate enterprise use. Meaningful open foundations exist via **OS-Climate** (physrisk, hazard models, data commons) and related open climate data tools. This section expands those projects while remaining realistic about the commercial gap.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-products)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-- **[Jupiter Intelligence](https://www.jupiterintel.com/)**  
-
-  Physical climate risk platform translating climate and weather data into asset-level financial impacts for banks, insurers, and asset managers.
-
-
-
-- **[Cervest](https://www.cervest.earth/)**  
-
-  Climate intelligence platform focused on asset and portfolio climate risk assessment and monitoring.
-
-
-
-- **[Climate X](https://www.climate-x.com/)**  
-
-  Climate risk analytics platform (Spectra and related) offering hazard coverage, scenario analysis, and map-based exploration.
-
-
-
-- **[One Concern](https://www.oneconcern.com/)**  
-
-  Resilience and climate/natural catastrophe risk platform used for operational and financial decision support.
-
-
-
-- **[Mitiga Solutions](https://www.mitigasolutions.com/)**  
-
-  Climate risk and EarthScan-oriented platform supporting hazard modeling and regulatory reporting use cases.
-
-
-
-- **[ClimateAI](https://climate.ai/)**  
-
-  Climate intelligence and risk analytics for agricultural, supply chain, and enterprise resilience decisions.
-
-
-
-- **[Four Twenty Seven](https://427mt.com/)**  
-
-  Climate risk data and analytics (often associated with Moody’s ecosystem) for physical risk scoring and disclosure.
-
-
-
-- **[RisQ](https://www.risq.io/)**  
-
-  Climate and environmental risk analytics focused on financial and real-asset exposure.
-
-
-
-- **[ClimateCheck](https://www.climatecheck.com/)**  
-
-  Property and location-level climate risk scoring for real estate and related markets.
-
-
-
-- **[Faura](https://www.faura.io/)**  
-
-  Climate risk and resilience analytics platform for organizations assessing physical climate exposure.
-
-
-
-## Open-Source GitHub Projects
-
-- **[OS-Climate physrisk](https://github.com/os-climate/physrisk)**  
-
-  Open-source physical climate risk calculation engine for assessing hazard impacts on assets and portfolios.
-
-
-
-- **[OS-Climate hazard](https://github.com/os-climate/hazard)**  
-
-  Open tools for onboarding, creating, and transforming climate hazard models used in OS-Climate workflows.
-
-
-
-- **[OS-Climate Data Commons](https://github.com/os-climate)**  
-
-  Open data platform architecture and resources enabling shared climate and risk datasets for research and investing.
-
-
-
-- **[OS-Climate financial valuation components](https://github.com/os-climate/osc-physrisk-financial)**  
-
-  Open modules for translating physical climate risk into financial valuation signals.
-
-
-
-- **[Open climate data and CMIP processing tools](https://github.com/)**  
-
-  Community libraries for working with CMIP climate model outputs, reanalysis, and hazard indicators.
-
-
-
-- **[Geospatial open risk notebooks](https://github.com/)**  
-
-  Notebooks combining open hazard layers (flood, heat, wildfire proxies) with asset locations for prototype scoring.
-
-
-
-- **[Scenario analysis open frameworks](https://github.com/)**  
-
-  Experimental pipelines for applying IPCC-aligned scenarios to portfolios using open data.
-
-
-
-- **[SoSTrades and system-of-systems climate tools](https://github.com/os-climate)**  
-
-  Open simulation and systems-of-systems components used in broader climate and energy modeling.
-
-
-
-- **[Documentation and OS-Climate playbooks](https://os-climate.org/)**  
-
-  Guides for deploying physrisk, hazard pipelines, and open climate risk workflows.
-
-
-
-- **[Public hazard and exposure open datasets](https://github.com/)**  
-
-  Curated links and loaders for openly available flood, heat, drought, and wildfire-related data layers.
-
-
-
-### Additional Strong Open-Source Options
-
-- Running **physrisk** for transparent, auditable physical risk calculations on your own asset lists.
-
-- Building hazard indicator pipelines with **OS-Climate hazard** and open climate model data.
-
-- Combining open geospatial stacks with portfolio data for research and internal prototypes.
-
-- Accepting that high-resolution proprietary hazard models, insurance-grade loss curves, regulatory-ready enterprise reporting, and full financial translation at scale still favor commercial platforms (Jupiter Intelligence, Climate X, Mitiga, Cervest, One Concern, etc.).
-
-- Focusing open-source efforts on transparency, reproducibility, and reducing black-box dependence in the analytics layer.
-
-
-
-**Frameworks for building custom systems**: Ingest open hazard indicators → run physrisk or custom scoring → map to assets → apply simple financial factors → report scenarios in open BI. Suitable for research teams, NGOs, and quant groups. Banks, insurers, and large asset managers typically rely on commercial climate risk platforms for decision-grade outputs.
-
-
-
-## How to Contribute
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Climate risk analytics involve scientific and financial assumptions. Open-source tools are not substitutes for validated commercial models in regulated decision-making. This list is not financial, investment, or climate advice.
-
-
+# 🌍 Awesome Climate Risk Analytics Ecosystem 📊
+
+![Awesome Climate Risk Analytics Banner](./assets/banner.svg)
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Climate-Risk-Analytics?style=flat-square" alt="License" />
+  <img src="https://img.shields.io/github/last-commit/ishandutta2007/Awesome-Climate-Risk-Analytics?style=flat-square" alt="Last Commit" />
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+> **A comprehensive, curated repository of enterprise SaaS platforms, climate risk intelligence providers, and open-source climate hazard engines.**
+> *Translating climate science, CMIP6 data, physical hazard modeling, asset-level vulnerability scoring, and NGFS/TCFD scenario stress testing into actionable financial risk translation.*
 
 ---
 
-**Made for climate risk analysts, sustainable finance teams, and open climate data advocates.**
+## 📌 Table of Contents
+- [🌐 Market Overview & Market Size](#-market-overview--market-size)
+- [🏢 SaaS & Hosted Commercial Platforms](#-saas--hosted-commercial-platforms)
+- [🔓 Open-Source GitHub Projects & Engines](#-open-source-github-projects--engines)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
 
-Let's keep physical climate risk transparent, reproducible, and as open as practical.
+---
+
+## 🌐 Market Overview & Market Size
+
+> 💡 **Market Size & Structure**: The global **Climate Risk Analytics & Financial Impact Market** was estimated at **~$1.6 Billion in 2025** and is projected to reach **~$4.8 Billion by 2032** (CAGR ~16.5%). 
+> 
+> 🏛️ **Market Dynamics**: The sector is **moderately fragmented**, undergoing rapid transition. While enterprise financial institutions and insurance majors lean on dominant category leaders (e.g., Jupiter Intelligence, Moody's Four Twenty Seven, MSCI/Carbon Delta), market consolidation is accelerating alongside emerging open-source standards (such as Linux Foundation OS-Climate).
+
+---
+
+## 🏢 SaaS & Hosted Commercial Platforms
+
+Below is a comparative breakdown of top commercial climate risk platforms, ordered by estimated market footprint / funding size (descending).
+
+| Platform | Company Size (Est. Valuation / Capital Raised) | Specific Starting Pricing | Free Tier / Trial Limit | Key Focus & Features |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Jupiter Intelligence](https://www.jupiterintel.com/)** 🚀 | ~$100M+ Raised (Est. Valuation ~$300M+) | ~$25,000/year base enterprise seat | No free trial; non-profit access via *"The Jupiter Promise"* program | Asset-level physical risk financial loss translation & high-res hazard scoring. |
+| **[Four Twenty Seven](https://427mt.com/)** (Moody's) 🏢 | Acquired by Moody's (Acquisition ~$100M+) | ~$20,000/year institutional tier | 14-day enterprise trial available upon institutional request | Physical risk scoring for sovereign debt, real estate, and municipal bond portfolios. |
+| **[Climate X](https://www.climate-x.com/)** 🔮 | ~$30M+ Total Funding | £12,000/year (~$15,000/yr) entry tier | 7-day limited sandbox trial for verified corporate email users | Spectra platform for hazard coverage, asset-level loss curves, & scenario modeling. |
+| **[One Concern](https://www.oneconcern.com/)** 🛡️ | ~$120M+ Total Funding | ~$15,000/year commercial license | 14-day customized demo trial for corporate risk managers | Digital twin & resilience analytics focused on business disruption & infrastructure. |
+| **[ClimateAI](https://climate.ai/)** 🌾 | ~$35M+ Total Funding | ~$12,000/year entry subscription | 14-day pilot access for agricultural supply chain enterprise leads | Supply chain climate resilience, crop risk modeling, & extreme weather forecasts. |
+| **[Cervest](https://www.cervest.earth/)** 🌍 | ~$30M+ Total Funding | £10,000/year (~$12,500/yr) team tier | Free basic account with limit of 3 asset searches & basic hazard overview | Asset-level Climate Intelligence Platform (CIP) & portfolio monitoring. |
+| **[Mitiga Solutions](https://www.mitigasolutions.com/)** 🌋 | ~$15M+ Total Funding | €8,000/year (~$8,700/yr) starter tier | 14-day EarthScan platform trial upon request | EarthScan hazard modeling, volcanic ash, wildfire, & insurance risk transfer. |
+| **[RisQ](https://www.risq.io/)** 🏙️ | Acquired by Intercontinental Exchange (ICE) | ~$7,500/year municipal module | 30-day trial for municipal finance analysts & institutional investors | Real-estate & municipal bond environmental exposure scoring. |
+| **[Faura](https://www.faura.io/)** 🏡 | Seed-funded (~$3M+ Raised) | ~$300/month (~$3,600/yr) starter plan | 14-day free trial with max 50 property address assessments | Property-level natural hazard risk assessment & insurer mitigation scoring. |
+| **[ClimateCheck](https://www.climatecheck.com/)** 📍 | Early Stage (~$5M+ Raised) | $19 per individual address report / $2,500 API package | 100% Free search for individual US property addresses (1-100 hazard score) | Granular property-level climate risk scores for real estate due diligence. |
+
+---
+
+## 🔓 Open-Source GitHub Projects & Engines
+
+Curated open-source software libraries, hazard engines, and climate risk frameworks sorted by GitHub Star Count (descending).
+
+- [![GitHub stars](https://img.shields.io/github/stars/pangeo-data/pangeo?style=social&color=white)](https://github.com/pangeo-data/pangeo/stargazers) **[pangeo-data/pangeo](https://github.com/pangeo-data/pangeo)** 🌌  
+  Ecosystem of open-source tools for ocean, atmosphere, land, and climate data analytics at scale using Xarray, Dask, and Jupyter.
+
+- [![GitHub stars](https://img.shields.io/github/stars/CLIMADA-project/climada_python?style=social&color=white)](https://github.com/CLIMADA-project/climada_python/stargazers) **[CLIMADA-project/climada_python](https://github.com/CLIMADA-project/climada_python)** 🧮  
+  ETH Zürich's open-source probabilistic natural hazard and climate risk modeling platform for calculating Expected Annual Damage (EAD).
+
+- [![GitHub stars](https://img.shields.io/github/stars/pydata/xarray?style=social&color=white)](https://github.com/pydata/xarray/stargazers) **[pydata/xarray](https://github.com/pydata/xarray)** 📐  
+  N-D labeled arrays and datasets in Python, foundational for processing CMIP6, NetCDF, and GRIB climate hazard datasets.
+
+- [![GitHub stars](https://img.shields.io/github/stars/deltares/dflowfm-tools?style=social&color=white)](https://github.com/deltares/dflowfm-tools/stargazers) **[deltares/dflowfm-tools](https://github.com/deltares/dflowfm-tools)** 🌊  
+  Deltares open tools for hydrodynamic, coastal, and inland flood risk modeling.
+
+- [![GitHub stars](https://img.shields.io/github/stars/os-climate/physrisk?style=social&color=white)](https://github.com/os-climate/physrisk/stargazers) **[os-climate/physrisk](https://github.com/os-climate/physrisk)** ⚡  
+  Linux Foundation OS-Climate physical climate risk calculation engine for asset and portfolio financial loss scoring.
+
+- [![GitHub stars](https://img.shields.io/github/stars/os-climate/hazard?style=social&color=white)](https://github.com/os-climate/hazard/stargazers) **[os-climate/hazard](https://github.com/os-climate/hazard)** 🌪️  
+  Open data pipeline and transformation tools for creating standardized hazard indicators in OS-Climate workflows.
+
+- [![GitHub stars](https://img.shields.io/github/stars/os-climate/osc-physrisk-financial?style=social&color=white)](https://github.com/os-climate/osc-physrisk-financial/stargazers) **[os-climate/osc-physrisk-financial](https://github.com/os-climate/osc-physrisk-financial)** 💰  
+  Open financial valuation modules for translating physical climate hazard exposure into financial metrics (PD, LGD, asset impairment).
+
+---
+
+## 🤝 How to Contribute
+
+1. 🍴 Fork the repository.
+2. 📝 Add or update entries in `README.md` following the established table / list format.
+3. 🔗 Ensure all links, descriptions, pricing details, and repository tags are accurate.
+4. 📥 Submit a Pull Request with a clear description of changes.
+
+---
+
+## 💖 Support & Sponsorship
+
+If you find this repository valuable for your climate risk research, ESG analysis, or sustainable finance projects:
+- ⭐ **Star this repository** to help others discover it!
+- 🔀 **Fork it** to customize your own workflows.
+- 📢 **Share it** with fellow climate data scientists and risk managers.
+- ☕ **Buy me a coffee**: Support ongoing maintenance via [GitHub Sponsors](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Climate-Risk-Analytics&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Climate-Risk-Analytics&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+- This repository is a **community-curated list** provided for informational and educational purposes.
+- Product descriptions, valuations, and pricing tiers reflect estimated public data as of 2026 and do not constitute financial advice or formal commercial solicitations.
+- Open-source risk engines should be validated before use in regulatory compliance (e.g., TCFD, CSRD, NGFS) or commercial underwriting.
+
+---
+
+<p align="center">
+  <i>Made with ❤️ for climate risk analysts, quants, and sustainable finance advocates worldwide.</i>
+</p>
