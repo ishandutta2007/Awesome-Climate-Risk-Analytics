@@ -54,27 +54,27 @@ Below is a comparative breakdown of top commercial climate risk platforms, order
 
 ## 🔓 Open-Source GitHub Projects & Engines
 
-Curated open-source software libraries, hazard engines, and climate risk frameworks sorted by GitHub Star Count (descending).
+Curated open-source software libraries, hazard engines, and climate risk frameworks sorted by GitHub Stars_Count (descending).
 
-- [![GitHub stars](https://img.shields.io/github/stars/pangeo-data/pangeo?style=social&color=white)](https://github.com/pangeo-data/pangeo/stargazers) **[pangeo-data/pangeo](https://github.com/pangeo-data/pangeo)** 🌌  
+- [![GitHub_Stars](https://img.shields.io/github/stars/pangeo-data/pangeo?style=social&color=white)](https://github.com/pangeo-data/pangeo/stargazers) **[pangeo-data/pangeo](https://github.com/pangeo-data/pangeo)** 🌌  
   Ecosystem of open-source tools for ocean, atmosphere, land, and climate data analytics at scale using Xarray, Dask, and Jupyter.
 
-- [![GitHub stars](https://img.shields.io/github/stars/CLIMADA-project/climada_python?style=social&color=white)](https://github.com/CLIMADA-project/climada_python/stargazers) **[CLIMADA-project/climada_python](https://github.com/CLIMADA-project/climada_python)** 🧮  
+- [![GitHub_Stars](https://img.shields.io/github/stars/CLIMADA-project/climada_python?style=social&color=white)](https://github.com/CLIMADA-project/climada_python/stargazers) **[CLIMADA-project/climada_python](https://github.com/CLIMADA-project/climada_python)** 🧮  
   ETH Zürich's open-source probabilistic natural hazard and climate risk modeling platform for calculating Expected Annual Damage (EAD).
 
-- [![GitHub stars](https://img.shields.io/github/stars/pydata/xarray?style=social&color=white)](https://github.com/pydata/xarray/stargazers) **[pydata/xarray](https://github.com/pydata/xarray)** 📐  
+- [![GitHub_Stars](https://img.shields.io/github/stars/pydata/xarray?style=social&color=white)](https://github.com/pydata/xarray/stargazers) **[pydata/xarray](https://github.com/pydata/xarray)** 📐  
   N-D labeled arrays and datasets in Python, foundational for processing CMIP6, NetCDF, and GRIB climate hazard datasets.
 
-- [![GitHub stars](https://img.shields.io/github/stars/deltares/dflowfm-tools?style=social&color=white)](https://github.com/deltares/dflowfm-tools/stargazers) **[deltares/dflowfm-tools](https://github.com/deltares/dflowfm-tools)** 🌊  
+- [![GitHub_Stars](https://img.shields.io/github/stars/deltares/dflowfm-tools?style=social&color=white)](https://github.com/deltares/dflowfm-tools/stargazers) **[deltares/dflowfm-tools](https://github.com/deltares/dflowfm-tools)** 🌊  
   Deltares open tools for hydrodynamic, coastal, and inland flood risk modeling.
 
-- [![GitHub stars](https://img.shields.io/github/stars/os-climate/physrisk?style=social&color=white)](https://github.com/os-climate/physrisk/stargazers) **[os-climate/physrisk](https://github.com/os-climate/physrisk)** ⚡  
+- [![GitHub_Stars](https://img.shields.io/github/stars/os-climate/physrisk?style=social&color=white)](https://github.com/os-climate/physrisk/stargazers) **[os-climate/physrisk](https://github.com/os-climate/physrisk)** ⚡  
   Linux Foundation OS-Climate physical climate risk calculation engine for asset and portfolio financial loss scoring.
 
-- [![GitHub stars](https://img.shields.io/github/stars/os-climate/hazard?style=social&color=white)](https://github.com/os-climate/hazard/stargazers) **[os-climate/hazard](https://github.com/os-climate/hazard)** 🌪️  
+- [![GitHub_Stars](https://img.shields.io/github/stars/os-climate/hazard?style=social&color=white)](https://github.com/os-climate/hazard/stargazers) **[os-climate/hazard](https://github.com/os-climate/hazard)** 🌪️  
   Open data pipeline and transformation tools for creating standardized hazard indicators in OS-Climate workflows.
 
-- [![GitHub stars](https://img.shields.io/github/stars/os-climate/osc-physrisk-financial?style=social&color=white)](https://github.com/os-climate/osc-physrisk-financial/stargazers) **[os-climate/osc-physrisk-financial](https://github.com/os-climate/osc-physrisk-financial)** 💰  
+- [![GitHub_Stars](https://img.shields.io/github/stars/os-climate/osc-physrisk-financial?style=social&color=white)](https://github.com/os-climate/osc-physrisk-financial/stargazers) **[os-climate/osc-physrisk-financial](https://github.com/os-climate/osc-physrisk-financial)** 💰  
   Open financial valuation modules for translating physical climate hazard exposure into financial metrics (PD, LGD, asset impairment).
 
 ---
